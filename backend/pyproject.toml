@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "toggletoad-backend"
+version = "0.1.0"
+description = "A simple service for managing deployed environment settings."
+authors = ["Daniel Cavazos <daniel@caaz.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.12.0"
+django = "~5.1.0"
+psycopg2 = "~2.9.9"
+
+
+[tool.poetry.group.dev.dependencies]
+django-extensions = "~3.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
